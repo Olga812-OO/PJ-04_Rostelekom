@@ -23,3 +23,5 @@ python-dotenv=1.0.1
 python -m pytest -v --driver firefox --driver-path /c:/geckodriver.exe tests
 Команда для запуска отдельного теста, к примеру, в файле test_validation_registr.py:
 python -m pytest -v --driver Chrome --driver-path /c:/geckodriver.exe tests/test_validation_registr.py- k "test_reg_password_invalid_caps"
+
+Файл .env удалён из Git.
